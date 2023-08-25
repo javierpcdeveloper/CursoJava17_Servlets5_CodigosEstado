@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Códigos de estado</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Códigos de estado</h1>
+        <fieldset>
+            <legend>Formulario de autorizacion</legend>
+            <form name="form1" action="ServletCodigosEstado" method="post">
+                Usuario:<input type="text" name="usuario"><br>
+                Contraseña:<input type="password" name="clave"><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </fieldset><br>
+        <h2>Si la información no es correcta, el servlet genera una página de error con el código 401.</h2>
+    </body>
+</html>
